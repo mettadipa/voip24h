@@ -1,4 +1,13 @@
-# Voip24h API
+# Voip24h
+
+## I. Summary
+- Restfull API.
+- Method: `POST`
+- API Endpoint:
+    ```sh
+    /api/v1/partner/voip24h
+    ```
+## II. API
 ## 1. getUser
 ### Description:
 Get data using user.
