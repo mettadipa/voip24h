@@ -8,8 +8,8 @@
     /api/v1/partner/voip24h
     ```
 ## II. API
-## 1. getUser
-### Description:
+### 1. getUser
+**Description:**
 Get data using user.
 
 **Request sample:**
@@ -51,8 +51,8 @@ Get data using user.
 }
 ```
 ---
-## 2. getDate
-### Description:
+### 2. getDate
+**Description:**
 Get data using date.
 
 **Request sample:**
@@ -96,8 +96,8 @@ Get data using date.
 }
 ```
 ---
-## 3. getUserDate
-### Description:
+### 3. getUserDate
+**Description:**
 Get data using user and date.
 
 **Request sample:**
