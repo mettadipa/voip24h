@@ -1,6 +1,6 @@
 # Voip24h
 
-## I. Summary
+## I. Introduce
 - Restfull API.
 - Method: `POST`
 - API Endpoint:
@@ -8,6 +8,9 @@
     /api/v1/partner/voip24h
     ```
 ## II. API
+### Summary:
+- `requestType`: Type of request for each API.
+- `partnerSecret`: Partner secret Voip24h provide to partner.
 ### 1. getUser
 **Description:**
 Get data using user.
