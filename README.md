@@ -41,24 +41,22 @@ __Response:__
     "respCode": 0,
     "respMsg": "Success",
     "data": [
-        [
-            {
-                "callId": "1532857052.131132",
-                "user": "137",
-                "phoneNumber": "0982056720",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 16:37:32"
-            },
-            {
-                "callId": "1532834934.130789",
-                "user": "137",
-                "phoneNumber": "0971828252",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 10:28:54"
-            }
-        ]
+        {
+            "callId": "1532857052.131132",
+            "user": "137",
+            "phoneNumber": "0982056720",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 16:37:32"
+        },
+        {
+            "callId": "1532834934.130789",
+            "user": "137",
+            "phoneNumber": "0971828252",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 10:28:54"
+        }
     ]
 }
 ```
@@ -86,24 +84,22 @@ __Response:__
     "respCode": 0,
     "respMsg": "Success",
     "data": [
-        [
-            {
-                "callId": "1532857052.131132",
-                "user": "137",
-                "phoneNumber": "0982056720",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 16:37:32"
-            },
-            {
-                "callId": "1532834934.130789",
-                "user": "137",
-                "phoneNumber": "0971828252",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 10:28:54"
-            }
-        ]
+        {
+            "callId": "1532857052.131132",
+            "user": "137",
+            "phoneNumber": "0982056720",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 16:37:32"
+        },
+        {
+            "callId": "1532834934.130789",
+            "user": "137",
+            "phoneNumber": "0971828252",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 10:28:54"
+        }
     ]
 }
 ```
@@ -131,24 +127,22 @@ __Response:__
     "respCode": 0,
     "respMsg": "Success",
     "data": [
-        [
-            {
-                "callId": "1532857052.131132",
-                "user": "137",
-                "phoneNumber": "0982056720",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 16:37:32"
-            },
-            {
-                "callId": "1532834934.130789",
-                "user": "137",
-                "phoneNumber": "0971828252",
-                "callType": "EXTERNAL",
-                "callStatus": "NO ANSWER",
-                "callDate": "2018-07-29 10:28:54"
-            }
-        ]
+        {
+            "callId": "1532857052.131132",
+            "user": "137",
+            "phoneNumber": "0982056720",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 16:37:32"
+        },
+        {
+            "callId": "1532834934.130789",
+            "user": "137",
+            "phoneNumber": "0971828252",
+            "callType": "EXTERNAL",
+            "callStatus": "NO ANSWER",
+            "callDate": "2018-07-29 10:28:54"
+        }
     ]
 }
 ```
