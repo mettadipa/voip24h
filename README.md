@@ -168,7 +168,9 @@ __Response:__
 {
     "respCode": 0,
     "respMsg": "Success",
-    "data": "http://localhost:8000/api/recording/download?host=eyJpdiI6InR4Z2ZidTVkU3V6dGE2WUFhbFJxTmc9PSIsInZhbHVlIjoiZTBadnprRmU5VlVWUys4RGlvVDAycUdmRnZWMWZoaVNnWnZCbzRxUTZ6cz0iLCJtYWMiOiJlNTg2YjBmMmUwYzliNzZjYjVlMjc0M2UyOGIzZDUyNGRhYTIzNTNmZWRkZDMxNmI1NmFjZjg1MWJjZjRiMjMzIn0=&recordingFile=in-84871076868-01256930269-20170712-161807-1499851087.50918.wav"
+    "data": {
+        "link": "http://localhost:8000/api/recording/download?host=eyJpdiI6IldickN0R2pjTVwvNDVuU0hqTUhzVkRBPT0iLCJ2YWx1ZSI6IjJPY1JhaVJXdWJHSlFYSlg3ZjQreE5NNFFBcUtrU0lSZTB0XC9HYWJOV0FJPSIsIm1hYyI6IjFiNjFkYjVkNjMxNjI0ZWJkMTA1MDUxYWQ5ZTIzYzM2NGEyNzIyNDVlNTE4YTZjZGQ0YzNiMzJmMTVlODg2OGMifQ==&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
+    }
 }
 ```
 ---
@@ -192,7 +194,9 @@ __Response:__
 {
     "respCode": 0,
     "respMsg": "Success",
-    "data": "http://localhost:8000/recording/listen?host=eyJpdiI6InFCdVwvNVlRM21hb2NtQnF6UkJmNnZnPT0iLCJ2YWx1ZSI6ImlEdktueHhKXC9OallYTEIrUDl6SUlveUhRR3RDa2ZTbVBQTU1tQUI3VnJZPSIsIm1hYyI6IjQ2Y2RjODgwODM0YzRhYzg0ODQxODVkYWY5NTFhNzllMWI5MmU2NWY5YWU5MGVmOWU5Y2ViYWIzMjZhZWFjZjAifQ==&recordingFile=in-84871076868-01256930269-20170712-161807-1499851087.50918.wav"
+    "data": {
+        "link": "http://localhost:8000/recording/listen?host=eyJpdiI6IkVLbTdPd3NGU256VXJmdVhkZHlPT3c9PSIsInZhbHVlIjoibzlNUnlJTm1iNWZEK2VOQ2ViRTBVTVRrcWZpZHp3aFA3SVk2MStDM1FOOD0iLCJtYWMiOiIxOGNmZTdhODBlNWQ2ZTRiNzE0MDFhOTE5OTViYzExZDMwOTA5ODA4NDMzMWRjODgxYTYyYjA3MTQ0YTg0ZTRiIn0=&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
+    }
 }
 ```
 ---
