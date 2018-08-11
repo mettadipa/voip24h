@@ -8,12 +8,21 @@
     /api/v1/partner/voip24h
     ```
 ## II. API
-### Summary:
+### Summary
+__Request:__
 - `requestType`: Type of request for each API.
 - `partnerSecret`: Partner secret Voip24h provide to partner.
+
+__Response:__
+- `respCode`: Response code for each request 
+    ```sh
+     0:  Success
+    -1:  Failure
+    ```
+- `respMsg`: Error description.
 ### 1. getUser
 **Description:**
-Get data using user.
+> Get data using user.
 
 **Request sample:**
 ```json
@@ -56,7 +65,7 @@ Get data using user.
 ---
 ### 2. getDate
 **Description:**
-Get data using date.
+> Get data using date.
 
 **Request sample:**
 ```json
@@ -101,7 +110,7 @@ Get data using date.
 ---
 ### 3. getUserDate
 **Description:**
-Get data using user and date.
+> Get data using user and date.
 
 **Request sample:**
 ```json
