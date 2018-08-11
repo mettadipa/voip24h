@@ -158,7 +158,7 @@ __Response:__
 	"requestType": "recordingDownload",
 	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
-		"recordingFile": "in-84871076868-01256930269-20170712-161807-1499851087.50918.wav"
+		"callId": "1531709393.4472"
 	}
 }
 ```
@@ -182,7 +182,7 @@ __Response:__
 	"requestType": "recordingListen",
 	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
-		"recordingFile": "in-84871076868-01256930269-20170712-161807-1499851087.50918.wav"
+		"callId": "1531709393.4472"
 	}
 }
 ```
