@@ -1,4 +1,9 @@
-# Voip24h
+# Voip24h API Document
+### `v1.0`
+
+## Change log:
+- `1.0`
+ Release date: 14/08/2018
 
 ## I. Introduce
 - Restfull API.
