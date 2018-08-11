@@ -12,7 +12,7 @@
     ```sh
     /api/v1/partner/voip24h
     ```
-## II. API
+## II. Voip24h API
 ### Summary
 __Request:__
 - `requestType`: Type of request for each API.
