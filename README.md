@@ -20,6 +20,7 @@ __Response:__
     -1:  Failure
     ```
 - `respMsg`: Error description.
+- `data`: API data response.
 ### 1. getUser
 **Description:**
 > Get data using user.
