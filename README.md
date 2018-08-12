@@ -205,3 +205,31 @@ __Response:__
 }
 ```
 ---
+### 5. makeDial
+**Description:**
+> Make call using extension & phone.
+
+**Request sample:**
+```json
+{
+	"requestType": "makeDial",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"data": {
+		"extension": "101",
+		"phone": "01687506228"
+	}
+}
+```
+
+**Response sample:**
+```json
+{
+    "respCode": 0,
+    "respMsg": "Success",
+    "data": {
+        "extension": "101",
+        "phone": "01687506228"
+    }
+}
+```
+---
