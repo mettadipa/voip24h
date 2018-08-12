@@ -35,7 +35,7 @@ __Response:__
 ```json
 {
 	"requestType": "getUser",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"user": "137"
 	}
@@ -81,7 +81,7 @@ __Response:__
 ```json
 {
 	"requestType": "getDate",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"user": "137",
 		"fromDate": "01/01/2018",
@@ -129,7 +129,7 @@ __Response:__
 ```json
 {
 	"requestType": "getUserDate",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"user": "137",
 		"fromDate": "01/01/2018",
@@ -177,7 +177,7 @@ __Response:__
 ```json
 {
 	"requestType": "recordingDownload",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"callId": "1531709393.4472"
 	}
@@ -203,7 +203,7 @@ __Response:__
 ```json
 {
 	"requestType": "recordingListen",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"callId": "1531709393.4472"
 	}
@@ -229,7 +229,7 @@ __Response:__
 ```json
 {
 	"requestType": "makeDial",
-	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
+	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
 	"data": {
 		"extension": "101",
 		"phone": "01687506228"
