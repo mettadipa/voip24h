@@ -203,7 +203,7 @@ __Response:__
 ---
 ### 5. recordingListen
 **Description:**
-> Get recording listen link.
+> Get link to listen recording on the web
 
 **Request sample:**
 - `callId`: ID of call.
