@@ -205,7 +205,7 @@ __Response:__
 }
 ```
 ---
-### 5. makeDial
+### 6. makeDial
 **Description:**
 > Make call using extension & phone.
 
