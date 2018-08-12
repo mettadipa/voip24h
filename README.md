@@ -35,7 +35,7 @@ __Response:__
 ```json
 {
 	"requestType": "getUser",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
 		"user": "137"
 	}
@@ -78,12 +78,13 @@ __Response:__
 > Get data using date.
 
 **Request sample:**
+- `fromDate`: From date.
+- `toDate`: To date.
 ```json
 {
 	"requestType": "getDate",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
-		"user": "137",
 		"fromDate": "01/01/2018",
 		"toDate": "30/07/2018"
 	}
@@ -126,10 +127,13 @@ __Response:__
 > Get data using user and date.
 
 **Request sample:**
+- `user`: User extension.
+- `fromDate`: From date.
+- `toDate`: To date.
 ```json
 {
 	"requestType": "getUserDate",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
 		"user": "137",
 		"fromDate": "01/01/2018",
@@ -174,10 +178,11 @@ __Response:__
 > Get recording download link.
 
 **Request sample:**
+- `callId`: ID of call.
 ```json
 {
 	"requestType": "recordingDownload",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
 		"callId": "1531709393.4472"
 	}
@@ -185,6 +190,7 @@ __Response:__
 ```
 
 **Response sample:**
+- `link`: Download link.
 ```json
 {
     "respCode": 0,
@@ -200,10 +206,11 @@ __Response:__
 > Get recording listen link.
 
 **Request sample:**
+- `callId`: ID of call.
 ```json
 {
 	"requestType": "recordingListen",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
 		"callId": "1531709393.4472"
 	}
@@ -211,6 +218,7 @@ __Response:__
 ```
 
 **Response sample:**
+- `link`: Listening link.
 ```json
 {
     "respCode": 0,
@@ -226,10 +234,12 @@ __Response:__
 > Make call using extension & phone.
 
 **Request sample:**
+- `extension`: Extension of Asterisk.
+- `phone`: Mobile phone number.
 ```json
 {
 	"requestType": "makeDial",
-	"partnerSecret": "rdn7mllWMqND7S5DnZF8",
+	"partnerSecret": "rdn7mllWMqND7S5DnVz8",
 	"data": {
 		"extension": "101",
 		"phone": "01687506228"
@@ -238,6 +248,8 @@ __Response:__
 ```
 
 **Response sample:**
+- `extension`: Extension of Asterisk.
+- `phone`: Mobile phone number.
 ```json
 {
     "respCode": 0,
