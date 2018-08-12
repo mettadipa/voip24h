@@ -31,6 +31,7 @@ __Response:__
 > Get data using user.
 
 **Request sample:**
+- `user`: User extension.
 ```json
 {
 	"requestType": "getUser",
@@ -42,6 +43,11 @@ __Response:__
 ```
 
 **Response sample:**
+- `callId`: ID of call.
+- `user`: User extension.
+- `phoneNumber`: Phone number.
+- `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `callDate`: Date when the call is executed.
 ```json
 {
     "respCode": 0,
@@ -85,6 +91,11 @@ __Response:__
 ```
 
 **Response sample:**
+- `callId`: ID of call.
+- `user`: User extension.
+- `phoneNumber`: Phone number.
+- `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `callDate`: Date when the call is executed.
 ```json
 {
     "respCode": 0,
@@ -128,6 +139,11 @@ __Response:__
 ```
 
 **Response sample:**
+- `callId`: ID of call.
+- `user`: User extension.
+- `phoneNumber`: Phone number.
+- `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `callDate`: Date when the call is executed.
 ```json
 {
     "respCode": 0,
