@@ -47,6 +47,7 @@ __Response:__
 - `user`: User extension.
 - `phoneNumber`: Phone number.
 - `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `duration`: Call duration in second.
 - `callDate`: Date when the call is executed.
 ```json
 {
@@ -98,6 +99,7 @@ __Response:__
 - `user`: User extension.
 - `phoneNumber`: Phone number.
 - `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `duration`: Call duration in second.
 - `callDate`: Date when the call is executed.
 ```json
 {
@@ -151,6 +153,7 @@ __Response:__
 - `user`: User extension.
 - `phoneNumber`: Phone number.
 - `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `duration`: Call duration in second.
 - `callDate`: Date when the call is executed.
 ```json
 {
