@@ -59,6 +59,7 @@ __Response:__
             "phoneNumber": "0982056720",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 69,
             "callDate": "2018-07-29 16:37:32"
         },
         {
@@ -67,6 +68,7 @@ __Response:__
             "phoneNumber": "0971828252",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 0,
             "callDate": "2018-07-29 10:28:54"
         }
     ]
@@ -108,6 +110,7 @@ __Response:__
             "phoneNumber": "0982056720",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 69,
             "callDate": "2018-07-29 16:37:32"
         },
         {
@@ -116,6 +119,7 @@ __Response:__
             "phoneNumber": "0971828252",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 0,
             "callDate": "2018-07-29 10:28:54"
         }
     ]
@@ -159,6 +163,7 @@ __Response:__
             "phoneNumber": "0982056720",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 69,
             "callDate": "2018-07-29 16:37:32"
         },
         {
@@ -167,6 +172,7 @@ __Response:__
             "phoneNumber": "0971828252",
             "callType": "EXTERNAL",
             "callStatus": "NO ANSWER",
+            "duration": 0,
             "callDate": "2018-07-29 10:28:54"
         }
     ]
