@@ -185,95 +185,7 @@ __Response:__
 }
 ```
 ---
-### 4. recordingDownload
-**Description:**
-> Get recording download link.
-
-**Request sample:**
-- `callId`: ID of call.
-```json
-{
-	"requestType": "recordingDownload",
-	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
-	"data": {
-		"callId": "1531709393.4472"
-	}
-}
-```
-
-**Response sample:**
-- `link`: Download link.
-```json
-{
-    "respCode": 0,
-    "respMsg": "Success",
-    "data": {
-        "link": "http://localhost:8000/api/recording/download?host=eyJpdiI6IldickN0R2pjTVwvNDVuU0hqTUhzVkRBPT0iLCJ2YWx1ZSI6IjJPY1JhaVJXdWJHSlFYSlg3ZjQreE5NNFFBcUtrU0lSZTB0XC9HYWJOV0FJPSIsIm1hYyI6IjFiNjFkYjVkNjMxNjI0ZWJkMTA1MDUxYWQ5ZTIzYzM2NGEyNzIyNDVlNTE4YTZjZGQ0YzNiMzJmMTVlODg2OGMifQ==&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
-    }
-}
-```
----
-### 5. recordingListen
-**Description:**
-> Get link to listen recording on the web
-
-**Request sample:**
-- `callId`: ID of call.
-```json
-{
-	"requestType": "recordingListen",
-	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
-	"data": {
-		"callId": "1531709393.4472"
-	}
-}
-```
-
-**Response sample:**
-- `link`: Listening link.
-```json
-{
-    "respCode": 0,
-    "respMsg": "Success",
-    "data": {
-        "link": "http://localhost:8000/recording/listen?host=eyJpdiI6IkVLbTdPd3NGU256VXJmdVhkZHlPT3c9PSIsInZhbHVlIjoibzlNUnlJTm1iNWZEK2VOQ2ViRTBVTVRrcWZpZHp3aFA3SVk2MStDM1FOOD0iLCJtYWMiOiIxOGNmZTdhODBlNWQ2ZTRiNzE0MDFhOTE5OTViYzExZDMwOTA5ODA4NDMzMWRjODgxYTYyYjA3MTQ0YTg0ZTRiIn0=&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
-    }
-}
-```
----
-### 6. makeDial
-**Description:**
-> Make call using extension & phone.
-
-**Request sample:**
-- `extension`: Extension of Asterisk.
-- `phone`: Mobile phone number.
-```json
-{
-	"requestType": "makeDial",
-	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
-	"data": {
-		"extension": "101",
-		"phone": "01687506228"
-	}
-}
-```
-
-**Response sample:**
-- `extension`: Extension of Asterisk.
-- `phone`: Mobile phone number.
-```json
-{
-    "respCode": 0,
-    "respMsg": "Success",
-    "data": {
-        "extension": "101",
-        "phone": "01687506228"
-    }
-}
-```
----
-### 7. getCallData
+### 4. getCallData
 **Description:**
 > Get data of specific call.
 
@@ -308,6 +220,94 @@ __Response:__
         "callStatus": "ANSWERED",
         "duration": 12,
         "callDate": "2018-08-30 22:15:03"
+    }
+}
+```
+---
+### 5. recordingDownload
+**Description:**
+> Get recording download link.
+
+**Request sample:**
+- `callId`: ID of call.
+```json
+{
+	"requestType": "recordingDownload",
+	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
+	"data": {
+		"callId": "1531709393.4472"
+	}
+}
+```
+
+**Response sample:**
+- `link`: Download link.
+```json
+{
+    "respCode": 0,
+    "respMsg": "Success",
+    "data": {
+        "link": "http://localhost:8000/api/recording/download?host=eyJpdiI6IldickN0R2pjTVwvNDVuU0hqTUhzVkRBPT0iLCJ2YWx1ZSI6IjJPY1JhaVJXdWJHSlFYSlg3ZjQreE5NNFFBcUtrU0lSZTB0XC9HYWJOV0FJPSIsIm1hYyI6IjFiNjFkYjVkNjMxNjI0ZWJkMTA1MDUxYWQ5ZTIzYzM2NGEyNzIyNDVlNTE4YTZjZGQ0YzNiMzJmMTVlODg2OGMifQ==&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
+    }
+}
+```
+---
+### 6. recordingListen
+**Description:**
+> Get link to listen recording on the web
+
+**Request sample:**
+- `callId`: ID of call.
+```json
+{
+	"requestType": "recordingListen",
+	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
+	"data": {
+		"callId": "1531709393.4472"
+	}
+}
+```
+
+**Response sample:**
+- `link`: Listening link.
+```json
+{
+    "respCode": 0,
+    "respMsg": "Success",
+    "data": {
+        "link": "http://localhost:8000/recording/listen?host=eyJpdiI6IkVLbTdPd3NGU256VXJmdVhkZHlPT3c9PSIsInZhbHVlIjoibzlNUnlJTm1iNWZEK2VOQ2ViRTBVTVRrcWZpZHp3aFA3SVk2MStDM1FOOD0iLCJtYWMiOiIxOGNmZTdhODBlNWQ2ZTRiNzE0MDFhOTE5OTViYzExZDMwOTA5ODA4NDMzMWRjODgxYTYyYjA3MTQ0YTg0ZTRiIn0=&recordingFile=in-0899199799-0948873483-20180716-094953-1531709393.4472.gsm"
+    }
+}
+```
+---
+### 7. makeDial
+**Description:**
+> Make call using extension & phone.
+
+**Request sample:**
+- `extension`: Extension of Asterisk.
+- `phone`: Mobile phone number.
+```json
+{
+	"requestType": "makeDial",
+	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
+	"data": {
+		"extension": "101",
+		"phone": "01687506228"
+	}
+}
+```
+
+**Response sample:**
+- `extension`: Extension of Asterisk.
+- `phone`: Mobile phone number.
+```json
+{
+    "respCode": 0,
+    "respMsg": "Success",
+    "data": {
+        "extension": "101",
+        "phone": "01687506228"
     }
 }
 ```
