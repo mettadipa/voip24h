@@ -1,9 +1,12 @@
 # Voip24h API Document
-### `v1.0`
+### `v1.1`
 
 ## Change log:
 - `1.0`
  Release date: 14/08/2018
+- `1.1`
+ Release date: 20/10/2018
+ Add getCallData API
 
 ## I. Introduce
 - Restfull API.
