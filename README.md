@@ -6,7 +6,7 @@
  Release date: 14/08/2018
 - `1.1`
  Release date: 20/10/2018
- Add getCallData API
+    Add getCallData API
 
 ## I. Introduce
 - Restfull API.
@@ -269,6 +269,45 @@ __Response:__
     "data": {
         "extension": "101",
         "phone": "01687506228"
+    }
+}
+```
+---
+### 7. getCallData
+**Description:**
+> Get data of specific call.
+
+**Request sample:**
+- `uniqueId`: Id of call.
+```json
+{
+	"requestType": "getCallData",
+	"partnerSecret": "rdn7mllWMqND7S5DnVdB",
+	"data": {
+		"uniqueId": "1535642103.21687"
+	}
+}
+```
+
+**Response sample:**
+- `callId`: ID of call.
+- `user`: User extension.
+- `phoneNumber`: Phone number.
+- `callType`: Type of call (INBOUND/OUTBOUND/EXTERNAL).
+- `duration`: Call duration in second.
+- `callDate`: Date when the call is executed.
+```json
+{
+    "respCode": 0,
+    "respMsg": "Success",
+    "data": {
+        "callId": "1535642103.21687",
+        "user": "516",
+        "phoneNumber": "0908598361",
+        "callType": "OUTBOUND",
+        "callStatus": "ANSWERED",
+        "duration": 12,
+        "callDate": "2018-08-30 22:15:03"
     }
 }
 ```
